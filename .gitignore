@@ -1,0 +1,16 @@
+# Secret API keys & environment variables
+.env
+.streamlit/secrets.toml
+
+# Python virtual environment
+venv/
+env/
+ENV/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+
+# Uploaded PDF files / vector index standard cache
+*.pdf
+faiss_index/
